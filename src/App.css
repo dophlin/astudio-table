@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NeutraText";
+  font-style: normal;
+  font-weight: 300;
+  src: local("NeutraText-BookAlt"), url("../fonts/neutra-text-alt-587261020eccb.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NeutraText";
+  font-style: normal;
+  font-weight: 100;
+  src: local("NeutraText-Light"), url("../fonts/neutra-text-light-5872613aeda5b.woff") format("woff");
+}
+
+@font-face {
+  font-family: "NeutraText";
+  font-style: normal;
+  font-weight: 600;
+  src: local("NeutraText-Bold"), url("../fonts/neutra-text-bold-5871e1605afa2.woff") format("woff");
+}
+
